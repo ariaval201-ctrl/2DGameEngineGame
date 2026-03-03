@@ -3,17 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Player2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Hook
   - Water
   - UI
   - Ground
   - Player
-  - 
+  - Player2
   - 
   - 
   - 

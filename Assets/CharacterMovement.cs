@@ -19,14 +19,11 @@ public class CharacterMovement : MonoBehaviour
     public CameraManager cameraManager;
     public CinemachineCamera myCamera; // assign chopCamera or crocCamera
 
-
- 
-   
-
+    public bool FacingRight => !spriteRenderer.flipX;
     private Rigidbody2D rb;
     private float horizInput;
     private bool isGrounded;
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
     private Animator animator;
 
     void Start()

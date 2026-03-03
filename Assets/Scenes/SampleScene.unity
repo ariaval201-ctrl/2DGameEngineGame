@@ -344,7 +344,7 @@ Transform:
   m_GameObject: {fileID: 217721786}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.88, y: -1.137, z: 0}
+  m_LocalPosition: {x: -0.416, y: 0.195, z: 0}
   m_LocalScale: {x: 0.89510334, y: 0.90627587, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -393,6 +393,7 @@ MonoBehaviour:
     m_Bits: 64
   cameraManager: {fileID: 2135734423}
   myCamera: {fileID: 1305701819}
+  spriteRenderer: {fileID: 0}
 --- !u!114 &217721795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,13 +425,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 217721786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2ae15a6bf454046b0f5d1dd1272d77, type: 3}
+  m_Script: {fileID: 11500000, guid: a1cf71869545b9444bb66ab7520efde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hookPrefab: {fileID: 3347397131718353563, guid: 421b55cc2f50adf45ac405fd490630da, type: 3}
-  hookSpeed: 2
-  pullSpeed: 2
-  snapDistance: 0.2
+  HookPrefab: {fileID: 3347397131718353563, guid: 421b55cc2f50adf45ac405fd490630da, type: 3}
+  spawnOffset: {x: 0, y: 0, z: 0}
+  ropeSegmentPrefab: {fileID: 1628651222174238234, guid: 197bb6e7a9255e84ca39db85dd415286, type: 3}
+  segmentCount: 15
+  cameraManager: {fileID: 2135734423}
+  myCamera: {fileID: 1305701819}
+  characterMovement: {fileID: 217721794}
+  otherPlayer: {fileID: 0}
 --- !u!1 &372228050
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394368353}
   - component: {fileID: 394368354}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: crocCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +754,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 34
+    FieldOfView: 40
     OrthographicSize: 3.674787
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -1871,7 +1876,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 34
+    FieldOfView: 40
     OrthographicSize: 3.674787
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -2189,7 +2194,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 34
+  field of view: 40
   orthographic: 0
   orthographic size: 3.674787
   m_Depth: 0
@@ -2216,7 +2221,7 @@ Transform:
   m_GameObject: {fileID: 1903410811}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8710492, y: -1.137, z: -7.286322}
+  m_LocalPosition: {x: -0.40704897, y: 0.195, z: -7.286322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2399,7 +2404,7 @@ GameObject:
   - component: {fileID: 2125975654}
   - component: {fileID: 2125975659}
   - component: {fileID: 2125975660}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Player2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2429,6 +2434,7 @@ MonoBehaviour:
     m_Bits: 0
   cameraManager: {fileID: 2135734423}
   myCamera: {fileID: 394368354}
+  spriteRenderer: {fileID: 0}
 --- !u!50 &2125975655
 Rigidbody2D:
   serializedVersion: 5
@@ -2566,7 +2572,7 @@ Transform:
   m_GameObject: {fileID: 2125975653}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.7, y: -1.423, z: 0}
+  m_LocalPosition: {x: -1.303, y: -1.423, z: 0}
   m_LocalScale: {x: 0.8513106, y: 0.33544582, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2695,7 +2701,7 @@ Transform:
   m_GameObject: {fileID: 2146524196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.032, y: 0.335, z: 0}
+  m_LocalPosition: {x: 0.021, y: 0.358, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
