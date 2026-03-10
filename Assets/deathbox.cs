@@ -2,16 +2,14 @@ using UnityEngine;
 
 public class DeathZone : MonoBehaviour
 {
+    public RespawnManager respawnManager;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") || collision.CompareTag("Player2"))
         {
-            Die(collision.gameObject);
+            respawnManager.Die();
         }
     }
 
-    void Die(GameObject player)
-    {
-        Destroy(player); // destroys the player GameObject
-    }
+   
 }

@@ -17,7 +17,7 @@ public class CharacterMovement : MonoBehaviour
 
     [Header("Camera")]
     public CameraManager cameraManager;
-    public CinemachineCamera myCamera; // assign chopCamera or crocCamera
+    public CinemachineCamera myCamera; 
 
     public bool FacingRight => !spriteRenderer.flipX;
     private Rigidbody2D rb;
@@ -35,7 +35,6 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
-        // Only read input if this character's camera is active
         if (cameraManager.currentCam == myCamera)
         {
             horizInput = Input.GetAxisRaw("Horizontal");
@@ -51,14 +50,12 @@ public class CharacterMovement : MonoBehaviour
             horizInput = 0;
         }
 
-        // Flip sprite
         if (spriteRenderer != null)
         {
             if (horizInput > 0.1f) spriteRenderer.flipX = false;
             else if (horizInput < -0.1f) spriteRenderer.flipX = true;
         }
 
-        // Update animator
         if (animator != null)
         {
             animator.SetFloat("moveInput", Mathf.Abs(horizInput));
@@ -70,14 +67,12 @@ public class CharacterMovement : MonoBehaviour
 
    void FixedUpdate()
 {
-    // Stop horizontal movement if canMove is false
     if (!canMove)
     {
         rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         return;
     }
 
-    // Normal movement
     rb.linearVelocity = new Vector2(horizInput * speed, rb.linearVelocity.y);
     
 }

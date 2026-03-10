@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     SpriteRenderer sprite;
     float blinkTimer;
     bool blinking;
-
+    public RespawnManager respawnManager;
     void Awake()
     {
         currentHealth = maxHealth;
@@ -37,7 +37,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         currentHealth -= amount;
         if(currentHealth <= 0f)
         {
-            Die();
+            respawnManager.Die();
             return true;
         }
         invulnerabilityTimer = invulnerabilityDuration;
@@ -64,9 +64,5 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         sprite.enabled = 
         Mathf.FloorToInt(blinkTimer/blinkInterval) % 2 ==0;
     }
-    void Die()
-    {
-        gameObject.SetActive(false);
 
-    }
 }
