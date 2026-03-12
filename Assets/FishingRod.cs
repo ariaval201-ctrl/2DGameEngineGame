@@ -9,18 +9,27 @@ public class FishingRod : MonoBehaviour
     public CameraManager cameraManager;
     public CinemachineCamera myCamera;
 
+    
+    private GameObject currentHook;
+
     void Update()
     {   
-    if(cameraManager.currentCam == myCamera)
-        if (Input.GetKeyDown(KeyCode.E))
+        if (cameraManager.currentCam == myCamera)
         {
-            SpawnHook();
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                
+                if (currentHook == null)
+                {
+                    SpawnHook();
+                }
+            }
         }
     }
 
     void SpawnHook()
     {
-        GameObject hook = Instantiate(hookPrefab, hookSpawnPoint.position, Quaternion.identity);
-        hook.GetComponent<HookController>().Initialize(transform, hookSpeed);
+        currentHook = Instantiate(hookPrefab, hookSpawnPoint.position, Quaternion.identity);
+        currentHook.GetComponent<HookController>().Initialize(transform, hookSpeed);
     }
 }

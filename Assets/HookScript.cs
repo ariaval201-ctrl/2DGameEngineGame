@@ -9,7 +9,12 @@ public class HookController : MonoBehaviour
 
     public float maxDistance = 5f;
     private Vector3 startPos;
+    public PlatformToggle platformToggle;
 
+    void Start()
+{
+    platformToggle = FindObjectOfType<PlatformToggle>();
+}
     public void Initialize(Transform p1, float hookSpeed)
     {
         player1 = p1;
@@ -54,12 +59,12 @@ public class HookController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player2"))
-        {
-            goingDown = false;
-            caughtPlayer = collision.transform;
-            caughtPlayer.SetParent(transform);
-        }
-    }
+        {   
+        if (collision.CompareTag("Player2") && !platformToggle.PlatformActive)
+     {
+        goingDown = false;
+        caughtPlayer = collision.transform;
+        caughtPlayer.SetParent(transform);
+     }
+         }
 }
