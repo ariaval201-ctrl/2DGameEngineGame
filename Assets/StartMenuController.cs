@@ -9,6 +9,7 @@ public class StartMenuController : MonoBehaviour
 
     public GameObject MainMenu;
     public GameObject SettingsMenu;
+    
     public void OnStartClick()
     {
         SceneManager.LoadScene("Level1");
@@ -24,12 +25,14 @@ public class StartMenuController : MonoBehaviour
        public void OpenSettings()
     {
         MainMenu.SetActive(false);
+        
         SettingsMenu.SetActive(true);
     }
 
     public void CloseSettings()
     {
         SettingsMenu.SetActive(false);
+        
         MainMenu.SetActive(true);
     }
     public void SetVolume (float volume)

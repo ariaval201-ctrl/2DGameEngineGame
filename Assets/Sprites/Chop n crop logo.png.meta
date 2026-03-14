@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: ece4c1c260371734c89fd890388ad992
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4717747489394060271
+    second: Chop n crop logo_0
+  - first:
+      213: 6765980364221283262
+    second: Chop n crop logo_1
+  - first:
+      213: 728437413532562824
+    second: Chop n crop logo_2
+  - first:
+      213: 5177453184819697054
+    second: Chop n crop logo_3
+  - first:
+      213: -4073810187812380999
+    second: Chop n crop logo_4
+  - first:
+      213: 638096623584277139
+    second: Chop n crop logo_5
+  - first:
+      213: 693677127411522723
+    second: Chop n crop logo_6
+  - first:
+      213: -1781762029709039311
+    second: Chop n crop logo_7
+  - first:
+      213: -848202653573310787
+    second: Chop n crop logo_8
+  - first:
+      213: 8854945022749186831
+    second: Chop n crop logo_9
+  - first:
+      213: -547246284303530922
+    second: Chop n crop logo_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chop n crop logo_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1199
+        width: 626
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1141da277a1378eb0800000000000000
+      internalID: -4717747489394060271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_1
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1199
+        width: 386
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb7da62b4795ed50800000000000000
+      internalID: 6765980364221283262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_2
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1239
+        width: 426
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88576bad7fdeb1a00800000000000000
+      internalID: 728437413532562824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_3
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1215
+        width: 362
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9594628d320ad740800000000000000
+      internalID: 5177453184819697054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_4
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1047
+        width: 138
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be5319d73be677c0800000000000000
+      internalID: -4073810187812380999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_5
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 719
+        width: 354
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392fd159f79fad800800000000000000
+      internalID: 638096623584277139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_6
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1047
+        width: 138
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac5d201caf60a900800000000000000
+      internalID: 693677127411522723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 71
+        width: 562
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139e9e8cfd8e547e0800000000000000
+      internalID: -1781762029709039311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_8
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 95
+        width: 450
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db618383e249a34f0800000000000000
+      internalID: -848202653573310787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_9
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 103
+        width: 322
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b149a259513ea70800000000000000
+      internalID: 8854945022749186831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chop n crop logo_10
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 71
+        width: 562
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6548f63676ac768f0800000000000000
+      internalID: -547246284303530922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chop n crop logo_0: -4717747489394060271
+      Chop n crop logo_1: 6765980364221283262
+      Chop n crop logo_10: -547246284303530922
+      Chop n crop logo_2: 728437413532562824
+      Chop n crop logo_3: 5177453184819697054
+      Chop n crop logo_4: -4073810187812380999
+      Chop n crop logo_5: 638096623584277139
+      Chop n crop logo_6: 693677127411522723
+      Chop n crop logo_7: -1781762029709039311
+      Chop n crop logo_8: -848202653573310787
+      Chop n crop logo_9: 8854945022749186831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
