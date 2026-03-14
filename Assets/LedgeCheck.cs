@@ -32,7 +32,6 @@ public class LedgeClimb2D : MonoBehaviour
 
     private void Update()
     {
-        // Detect facing direction automatically
        facingDirection = spriteRenderer.flipX ? -1 : 1;
 
         CheckSurroundings();
@@ -87,7 +86,7 @@ public class LedgeClimb2D : MonoBehaviour
         while (time < climbDuration)
         {
             float t = time / climbDuration;
-            t = t * t * (3f - 2f * t); // SmoothStep easing
+            t = t * t * (3f - 2f * t);
 
             transform.position = Vector3.Lerp(startPos, targetPos, t);
 
