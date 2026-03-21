@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class StartMenuController : MonoBehaviour
 {
@@ -9,6 +10,20 @@ public class StartMenuController : MonoBehaviour
 
     public GameObject MainMenu;
     public GameObject SettingsMenu;
+
+    public Slider volumeSlider;
+    public AudioMixer musicMixer;
+
+    private void Start()
+    {
+    float currentVolume;
+    if (audioMixer.GetFloat("MasterVolume", out currentVolume))
+    {
+        volumeSlider.value = currentVolume; // slider now matches the starting volume
+    }
+
+    }
+
     
     public void OnStartClick()
     {

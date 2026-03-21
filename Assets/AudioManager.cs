@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
@@ -9,8 +10,9 @@ public class AudioManager : MonoBehaviour
     [Header("---AudioClips---")]
     public AudioClip background;
 
-    
+    public float startVolumeDB = -20f;
     private static AudioManager instance;
+    [SerializeField] AudioMixer musicMixer;
 
     private void Awake()
     {
@@ -29,6 +31,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         musicSource.clip = background;
+        musicMixer.SetFloat("MasterVolume", -20f);
         musicSource.Play();
     }
 

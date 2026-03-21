@@ -890,7 +890,7 @@ MonoBehaviour:
   m_MinValue: -80
   m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: -20
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1425,6 +1425,8 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: aa9213aa9139be042b7a96476603f808, type: 2}
   MainMenu: {fileID: 463165286}
   SettingsMenu: {fileID: 64166713}
+  volumeSlider: {fileID: 0}
+  musicMixer: {fileID: 0}
 --- !u!1 &1049348697
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,6 +1943,8 @@ MonoBehaviour:
   musicSource: {fileID: 1772483523}
   SFXSource: {fileID: 1318884503}
   background: {fileID: 8300000, guid: adaa84fa37a7fe341bf67adcfc0c2f35, type: 3}
+  startVolumeDB: -20
+  musicMixer: {fileID: 24100000, guid: aa9213aa9139be042b7a96476603f808, type: 2}
 --- !u!4 &1283304742
 Transform:
   m_ObjectHideFlags: 0
