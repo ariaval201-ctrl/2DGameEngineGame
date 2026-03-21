@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     public float groundCheckDistance = 0.3f;
     public Vector2 groundCheckOffset = new Vector2(0f, -0.5f);
     public LayerMask groundLayer;
+    public Vector2 groundCheckSize = new Vector2(1f, 0.2f);
 
     [Header("Camera")]
     public CameraManager cameraManager;
@@ -78,11 +79,30 @@ public class CharacterMovement : MonoBehaviour
 }
 
     bool IsGrounded()
-    {
-        Vector2 rayOrigin = groundCheck != null ? (Vector2)groundCheck.position : (Vector2)transform.position + groundCheckOffset;
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, groundCheckDistance, groundLayer);
-        return hit.collider != null;
-    }
+{
+    Vector2 checkPos = groundCheck != null 
+        ? (Vector2)groundCheck.position + groundCheckOffset 
+        : (Vector2)transform.position + groundCheckOffset;
+
+    Collider2D hit = Physics2D.OverlapBox(
+        checkPos,
+        groundCheckSize,
+        0f,
+        groundLayer
+    );
+
+    return hit != null;
+}
+void OnDrawGizmos()
+{
+    Gizmos.color = Color.red;
+
+    Vector2 checkPos = groundCheck != null 
+        ? (Vector2)groundCheck.position + groundCheckOffset 
+        : (Vector2)transform.position + groundCheckOffset;
+
+    Gizmos.DrawWireCube(checkPos, groundCheckSize);
+}
 
 
 }
