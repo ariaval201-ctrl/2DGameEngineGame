@@ -31,6 +31,7 @@ public class PlatformToggle : MonoBehaviour
 
                     currentPlatform = Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
 
+                    
                     characterMovement.canMove = false; 
                 }
                 else

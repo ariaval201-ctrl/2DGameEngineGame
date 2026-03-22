@@ -365,7 +365,7 @@ MonoBehaviour:
   canMove: 1
   groundCheck: {fileID: 692047232}
   groundCheckDistance: 0.3
-  groundCheckOffset: {x: 0, y: -0.5}
+  groundCheckOffset: {x: 0, y: -0.1}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -373,6 +373,7 @@ MonoBehaviour:
   cameraManager: {fileID: 2135734423}
   myCamera: {fileID: 1305701819}
   spriteRenderer: {fileID: 0}
+  platformToggle: {fileID: 0}
 --- !u!114 &217721795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3187,6 +3188,7 @@ MonoBehaviour:
   cameraManager: {fileID: 2135734423}
   myCamera: {fileID: 394368354}
   spriteRenderer: {fileID: 0}
+  platformToggle: {fileID: 2125975659}
 --- !u!50 &2125975655
 Rigidbody2D:
   serializedVersion: 5
