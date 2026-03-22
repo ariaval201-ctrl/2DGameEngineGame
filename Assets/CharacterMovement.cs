@@ -26,7 +26,7 @@ public class CharacterMovement : MonoBehaviour
     private bool isGrounded;
     public SpriteRenderer spriteRenderer;
     private Animator animator;
-    public PlatformToggle platformToggle;
+    public bool canFlip = true;
 
     void Start()
     {
@@ -52,15 +52,11 @@ public class CharacterMovement : MonoBehaviour
             horizInput = 0;
         }
 
-        if (spriteRenderer != null)
+        if (spriteRenderer != null && canFlip)
 {
-        if (!platformToggle.PlatformActive)
-        {
-        if (horizInput > 0.1f) spriteRenderer.flipX = false;
-        else if (horizInput < -0.1f) spriteRenderer.flipX = true;
-        }
-    }
-    
+            if (horizInput > 0.1f) spriteRenderer.flipX = false;
+            else if (horizInput < -0.1f) spriteRenderer.flipX = true;
+}
 
         if (animator != null)
         {

@@ -373,7 +373,7 @@ MonoBehaviour:
   cameraManager: {fileID: 2135734423}
   myCamera: {fileID: 1305701819}
   spriteRenderer: {fileID: 0}
-  platformToggle: {fileID: 0}
+  canFlip: 1
 --- !u!114 &217721795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3156,6 +3156,7 @@ GameObject:
   - component: {fileID: 2125975659}
   - component: {fileID: 2125975660}
   - component: {fileID: 2125975661}
+  - component: {fileID: 2125975662}
   m_Layer: 8
   m_Name: Player2
   m_TagString: Player2
@@ -3188,7 +3189,7 @@ MonoBehaviour:
   cameraManager: {fileID: 2135734423}
   myCamera: {fileID: 394368354}
   spriteRenderer: {fileID: 0}
-  platformToggle: {fileID: 2125975659}
+  canFlip: 1
 --- !u!50 &2125975655
 Rigidbody2D:
   serializedVersion: 5
@@ -3379,6 +3380,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf9e256bcf9a2c4eb7552f29c66bb22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2125975662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125975653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 990002f9818d5c144bc869ebe4d181bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 2125975654}
+  platformToggle: {fileID: 2125975659}
 --- !u!1 &2135734422
 GameObject:
   m_ObjectHideFlags: 0
