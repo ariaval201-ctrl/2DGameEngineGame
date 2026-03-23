@@ -36,10 +36,13 @@ public class LedgeClimb2D : MonoBehaviour
 
         CheckSurroundings();
 
-        if (isTouchingWall && canClimb && !isClimbing && Input.GetButtonDown("Horizontal"))
-        {
-            ClimbLedge();
-        }
+        float horiz = Input.GetAxisRaw("Horizontal");
+
+
+    if (isTouchingWall && canClimb && !isClimbing && horiz == facingDirection)
+    {
+    ClimbLedge();
+    }
     }
 
     void CheckSurroundings()

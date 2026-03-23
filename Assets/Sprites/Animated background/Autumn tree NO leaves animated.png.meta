@@ -1,40 +1,28 @@
 fileFormatVersion: 2
-guid: ece4c1c260371734c89fd890388ad992
+guid: 9168425ae01801847ba71688f70cf71e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4717747489394060271
-    second: Chop n crop logo_0
+      213: 2904262660191958452
+    second: Autumn tree NO leaves animated_0
   - first:
-      213: 6765980364221283262
-    second: Chop n crop logo_1
+      213: -5420790614527901404
+    second: Autumn tree NO leaves animated_1
   - first:
-      213: 728437413532562824
-    second: Chop n crop logo_2
+      213: -3333044688052674940
+    second: Autumn tree NO leaves animated_2
   - first:
-      213: 5177453184819697054
-    second: Chop n crop logo_3
+      213: 584270799774039515
+    second: Autumn tree NO leaves animated_3
   - first:
-      213: -4073810187812380999
-    second: Chop n crop logo_4
+      213: 7481682676852052019
+    second: Autumn tree NO leaves animated_4
   - first:
-      213: 638096623584277139
-    second: Chop n crop logo_5
+      213: 6403945979179219228
+    second: Autumn tree NO leaves animated_5
   - first:
-      213: 693677127411522723
-    second: Chop n crop logo_6
-  - first:
-      213: -1781762029709039311
-    second: Chop n crop logo_7
-  - first:
-      213: -848202653573310787
-    second: Chop n crop logo_8
-  - first:
-      213: 8854945022749186831
-    second: Chop n crop logo_9
-  - first:
-      213: -547246284303530922
-    second: Chop n crop logo_10
+      213: -2420718108254248087
+    second: Autumn tree NO leaves animated_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,17 +114,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chop n crop logo_0
+      name: Autumn tree NO leaves animated_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 1199
-        width: 626
-        height: 666
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1141da277a1378eb0800000000000000
-      internalID: -4717747489394060271
+      spriteID: 4b53c2380830e4820800000000000000
+      internalID: 2904262660191958452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chop n crop logo_1
+      name: Autumn tree NO leaves animated_1
       rect:
         serializedVersion: 2
-        x: 711
-        y: 1199
-        width: 386
-        height: 722
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebb7da62b4795ed50800000000000000
-      internalID: 6765980364221283262
+      spriteID: 4210b4b18ab75c4b0800000000000000
+      internalID: -5420790614527901404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chop n crop logo_2
+      name: Autumn tree NO leaves animated_2
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 1239
-        width: 426
-        height: 562
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88576bad7fdeb1a00800000000000000
-      internalID: 728437413532562824
+      spriteID: 48e1e14f385aeb1d0800000000000000
+      internalID: -3333044688052674940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chop n crop logo_3
+      name: Autumn tree NO leaves animated_3
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 1215
-        width: 362
-        height: 690
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9594628d320ad740800000000000000
-      internalID: 5177453184819697054
+      spriteID: bdd3a21623fbb1800800000000000000
+      internalID: 584270799774039515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chop n crop logo_4
+      name: Autumn tree NO leaves animated_4
       rect:
         serializedVersion: 2
-        x: 759
-        y: 1047
-        width: 138
-        height: 162
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9be5319d73be677c0800000000000000
-      internalID: -4073810187812380999
+      spriteID: 330d5f341c644d760800000000000000
+      internalID: 7481682676852052019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chop n crop logo_5
+      name: Autumn tree NO leaves animated_5
       rect:
         serializedVersion: 2
-        x: 855
-        y: 719
-        width: 354
-        height: 386
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 392fd159f79fad800800000000000000
-      internalID: 638096623584277139
+      spriteID: c19b4c140f26fd850800000000000000
+      internalID: 6403945979179219228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chop n crop logo_6
+      name: Autumn tree NO leaves animated_6
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 1047
-        width: 138
-        height: 162
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,96 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ac5d201caf60a900800000000000000
-      internalID: 693677127411522723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chop n crop logo_7
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 71
-        width: 562
-        height: 618
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 139e9e8cfd8e547e0800000000000000
-      internalID: -1781762029709039311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chop n crop logo_8
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 95
-        width: 450
-        height: 562
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db618383e249a34f0800000000000000
-      internalID: -848202653573310787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chop n crop logo_9
-      rect:
-        serializedVersion: 2
-        x: 1095
-        y: 103
-        width: 322
-        height: 538
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0b149a259513ea70800000000000000
-      internalID: 8854945022749186831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chop n crop logo_10
-      rect:
-        serializedVersion: 2
-        x: 1431
-        y: 71
-        width: 562
-        height: 618
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6548f63676ac768f0800000000000000
-      internalID: -547246284303530922
+      spriteID: 9636620c4b1e76ed0800000000000000
+      internalID: -2420718108254248087
       vertices: []
       indices: 
       edges: []
@@ -375,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 518271e79ccbbcd4092ca081358d9aa3
     internalID: 0
     vertices: []
     indices: 
@@ -385,17 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Chop n crop logo_0: -4717747489394060271
-      Chop n crop logo_1: 6765980364221283262
-      Chop n crop logo_10: -547246284303530922
-      Chop n crop logo_2: 728437413532562824
-      Chop n crop logo_3: 5177453184819697054
-      Chop n crop logo_4: -4073810187812380999
-      Chop n crop logo_5: 638096623584277139
-      Chop n crop logo_6: 693677127411522723
-      Chop n crop logo_7: -1781762029709039311
-      Chop n crop logo_8: -848202653573310787
-      Chop n crop logo_9: 8854945022749186831
+      Autumn tree NO leaves animated_0: 2904262660191958452
+      Autumn tree NO leaves animated_1: -5420790614527901404
+      Autumn tree NO leaves animated_2: -3333044688052674940
+      Autumn tree NO leaves animated_3: 584270799774039515
+      Autumn tree NO leaves animated_4: 7481682676852052019
+      Autumn tree NO leaves animated_5: 6403945979179219228
+      Autumn tree NO leaves animated_6: -2420718108254248087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -23,10 +23,11 @@ public class CharacterMovement : MonoBehaviour
     public bool FacingRight => !spriteRenderer.flipX;
     private Rigidbody2D rb;
     private float horizInput;
-    private bool isGrounded;
+    public bool isGrounded;
     public SpriteRenderer spriteRenderer;
     private Animator animator;
     public bool canFlip = true;
+    public float HorizontalInput => horizInput;
 
     void Start()
     {
@@ -79,7 +80,7 @@ public class CharacterMovement : MonoBehaviour
     
 }
 
-    bool IsGrounded()
+    public bool IsGrounded()
 {
     Vector2 checkPos = groundCheck != null 
         ? (Vector2)groundCheck.position + groundCheckOffset 
