@@ -17,10 +17,10 @@ public class CrocAnimatorController : MonoBehaviour
     {
         if (animator == null || movement == null) return;
 
-        // Set walking/running speed
+        
         animator.SetFloat("moveInput", Mathf.Abs(movement.HorizontalInput));
 
-        // Set grounded state
+        
         animator.SetBool("isGrounded", movement.IsGrounded());
     }
 }
