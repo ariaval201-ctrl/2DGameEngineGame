@@ -37,35 +37,41 @@ public class CharacterMovement : MonoBehaviour
     }
 
     void Update()
-    {
-        if (cameraManager.currentCam == myCamera)
-        {
-            horizInput = Input.GetAxisRaw("Horizontal");
-
-            
-            if (Input.GetButtonDown("Jump") && IsGrounded())
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            }
-        }
-        else
-        {
-            horizInput = 0;
-        }
-
-        if (spriteRenderer != null && canFlip)
 {
-            if (horizInput > 0.1f) spriteRenderer.flipX = false;
-            else if (horizInput < -0.1f) spriteRenderer.flipX = true;
-}
+    if (Time.timeScale == 0f) return;
 
-        if (animator != null)
+    if (cameraManager.currentCam == myCamera)
+    {
+        horizInput = Input.GetAxisRaw("Horizontal");
+
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            animator.SetFloat("moveInput", Mathf.Abs(horizInput));
-            animator.SetBool("isGrounded", IsGrounded());
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
-        
-       
+    }
+    else
+    {
+        horizInput = 0;
+    }
+
+    if (spriteRenderer != null && canFlip)
+    {
+        if (horizInput > 0.1f) spriteRenderer.flipX = false;
+        else if (horizInput < -0.1f) spriteRenderer.flipX = true;
+    }
+
+    if (animator != null)
+    {
+        animator.SetFloat("moveInput", Mathf.Abs(horizInput));
+        animator.SetBool("isGrounded", IsGrounded());
+    }
+
+
+if (animator != null)
+{
+    animator.SetFloat("moveInput", Mathf.Abs(horizInput));
+    animator.SetBool("isGrounded", IsGrounded());
+}
     }
 
    void FixedUpdate()
