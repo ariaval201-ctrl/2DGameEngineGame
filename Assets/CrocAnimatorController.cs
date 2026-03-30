@@ -21,6 +21,6 @@ public class CrocAnimatorController : MonoBehaviour
         animator.SetFloat("moveInput", Mathf.Abs(movement.HorizontalInput));
 
         
-        animator.SetBool("isGrounded", movement.IsGrounded());
+        
     }
 }
