@@ -1,40 +1,28 @@
 fileFormatVersion: 2
-guid: 40ae9e863e25d98499995bd7e0b26e44
+guid: b9023ff4ad7640043a996c5e74b35bac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7687298278419054993
-    second: Chopsprite (2)_0
+      213: 8931794057646554146
+    second: Bush 2_0
   - first:
-      213: 4793190339020153981
-    second: Chopsprite (2)_1
+      213: 8661754864011467850
+    second: Bush 2_1
   - first:
-      213: 4954519838090198659
-    second: Chopsprite (2)_2
+      213: -2686991200211713149
+    second: Bush 2_2
   - first:
-      213: -5492493229037477882
-    second: Chopsprite (2)_3
+      213: -8352874266715327612
+    second: Bush 2_3
   - first:
-      213: 5748024981839101799
-    second: Chopsprite (2)_4
+      213: -645268251785797481
+    second: Bush 2_4
   - first:
-      213: -1840431523267986122
-    second: Chopsprite (2)_5
+      213: -4118085526730249299
+    second: Bush 2_5
   - first:
-      213: -5122315076525281091
-    second: Chopsprite (2)_6
-  - first:
-      213: -8851422464320228993
-    second: Chopsprite (2)_7
-  - first:
-      213: -1305909234965504032
-    second: Chopsprite (2)_8
-  - first:
-      213: 2126329175300566869
-    second: Chopsprite (2)_9
-  - first:
-      213: 7102544679488506830
-    second: Chopsprite (2)_10
+      213: 745676525015036959
+    second: Bush 2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chopsprite (2)_0
+      name: Bush 2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 4
-        width: 54
-        height: 58
+        x: 12
+        y: 10
+        width: 45
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6e3c50e1fa315590800000000000000
-      internalID: -7687298278419054993
+      spriteID: 22cb7fc6f5b14fb70800000000000000
+      internalID: 8931794057646554146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopsprite (2)_1
+      name: Bush 2_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 4
-        width: 54
-        height: 59
+        x: 76
+        y: 10
+        width: 45
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d74612ac735d48240800000000000000
-      internalID: 4793190339020153981
+      spriteID: a4c5ae8282cb43870800000000000000
+      internalID: 8661754864011467850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopsprite (2)_2
+      name: Bush 2_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 4
-        width: 54
-        height: 58
+        x: 141
+        y: 10
+        width: 44
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38efdf5ea8df1c440800000000000000
-      internalID: 4954519838090198659
+      spriteID: 383c7cc5db3e5bad0800000000000000
+      internalID: -2686991200211713149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopsprite (2)_3
+      name: Bush 2_3
       rect:
         serializedVersion: 2
-        x: 200
-        y: 4
-        width: 54
-        height: 59
+        x: 206
+        y: 10
+        width: 44
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 600abf7328eb6c3b0800000000000000
-      internalID: -5492493229037477882
+      spriteID: 4837eee1c11a41c80800000000000000
+      internalID: -8352874266715327612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopsprite (2)_4
+      name: Bush 2_4
       rect:
         serializedVersion: 2
-        x: 264
-        y: 4
-        width: 54
-        height: 59
+        x: 269
+        y: 10
+        width: 44
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76f3792444615cf40800000000000000
-      internalID: 5748024981839101799
+      spriteID: 790687b91fb8b07f0800000000000000
+      internalID: -645268251785797481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopsprite (2)_5
+      name: Bush 2_5
       rect:
         serializedVersion: 2
-        x: 328
-        y: 4
-        width: 54
-        height: 59
+        x: 332
+        y: 10
+        width: 45
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63d3e26d7497576e0800000000000000
-      internalID: -1840431523267986122
+      spriteID: dabe090380f99d6c0800000000000000
+      internalID: -4118085526730249299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chopsprite (2)_6
+      name: Bush 2_6
       rect:
         serializedVersion: 2
-        x: 392
-        y: 4
-        width: 54
-        height: 59
+        x: 396
+        y: 10
+        width: 45
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,96 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db0351cb391e9e8b0800000000000000
-      internalID: -5122315076525281091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chopsprite (2)_7
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 4
-        width: 54
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f71b7416a2e692580800000000000000
-      internalID: -8851422464320228993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chopsprite (2)_8
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 4
-        width: 54
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ef9af4487a70ede0800000000000000
-      internalID: -1305909234965504032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chopsprite (2)_9
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 4
-        width: 54
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55fe6518e1d328d10800000000000000
-      internalID: 2126329175300566869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chopsprite (2)_10
-      rect:
-        serializedVersion: 2
-        x: 648
-        y: 4
-        width: 54
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ecbc04e41ce419260800000000000000
-      internalID: 7102544679488506830
+      spriteID: f147ed649dc295a00800000000000000
+      internalID: 745676525015036959
       vertices: []
       indices: 
       edges: []
@@ -398,17 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Chopsprite (2)_0: -7687298278419054993
-      Chopsprite (2)_1: 4793190339020153981
-      Chopsprite (2)_10: 7102544679488506830
-      Chopsprite (2)_2: 4954519838090198659
-      Chopsprite (2)_3: -5492493229037477882
-      Chopsprite (2)_4: 5748024981839101799
-      Chopsprite (2)_5: -1840431523267986122
-      Chopsprite (2)_6: -5122315076525281091
-      Chopsprite (2)_7: -8851422464320228993
-      Chopsprite (2)_8: -1305909234965504032
-      Chopsprite (2)_9: 2126329175300566869
+      Bush 2_0: 8931794057646554146
+      Bush 2_1: 8661754864011467850
+      Bush 2_2: -2686991200211713149
+      Bush 2_3: -8352874266715327612
+      Bush 2_4: -645268251785797481
+      Bush 2_5: -4118085526730249299
+      Bush 2_6: 745676525015036959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
