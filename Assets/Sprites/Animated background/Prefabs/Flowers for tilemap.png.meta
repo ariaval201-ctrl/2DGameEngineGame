@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: ef2560ea39db99248ae262e5a4884ed6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8301468112065211703
+    second: Flowers for tilemap_0
+  - first:
+      213: -8440986988359486862
+    second: Flowers for tilemap_1
+  - first:
+      213: 909414944119265495
+    second: Flowers for tilemap_2
+  - first:
+      213: -1847298618958991257
+    second: Flowers for tilemap_3
+  - first:
+      213: 1618122236252300522
+    second: Flowers for tilemap_4
+  - first:
+      213: 8872069554417895521
+    second: Flowers for tilemap_5
+  - first:
+      213: 9162445076378575696
+    second: Flowers for tilemap_6
+  - first:
+      213: -6494639518172813747
+    second: Flowers for tilemap_7
+  - first:
+      213: -2485027267049045428
+    second: Flowers for tilemap_8
+  - first:
+      213: 6759324647232594478
+    second: Flowers for tilemap_9
+  - first:
+      213: -8952019617297965080
+    second: Flowers for tilemap_10
+  - first:
+      213: 2044480081410934128
+    second: Flowers for tilemap_11
+  - first:
+      213: -3348258213254025455
+    second: Flowers for tilemap_12
+  - first:
+      213: 3780910477863850495
+    second: Flowers for tilemap_13
+  - first:
+      213: 4493972933333924956
+    second: Flowers for tilemap_14
+  - first:
+      213: 6713269555504026177
+    second: Flowers for tilemap_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flowers for tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 148
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d21edc34db43370800000000000000
+      internalID: 8301468112065211703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 148
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272732d6e079bda80800000000000000
+      internalID: -8440986988359486862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 148
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d819a9c214ee9c00800000000000000
+      internalID: 909414944119265495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 148
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76031e681b31d56e0800000000000000
+      internalID: -1847298618958991257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 148
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4aaf6c999b47610800000000000000
+      internalID: 1618122236252300522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 148
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16803a5e04cef1b70800000000000000
+      internalID: 8872069554417895521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 148
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0536293904b872f70800000000000000
+      internalID: 9162445076378575696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 148
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46681fa4c76ed5a0800000000000000
+      internalID: -6494639518172813747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 148
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42c16aedd8638dd0800000000000000
+      internalID: -2485027267049045428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 148
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2267d744f1fdcd50800000000000000
+      internalID: 6759324647232594478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 118
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef50a0869904c380800000000000000
+      internalID: -8952019617297965080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 119
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0754cda4dc37f5c10800000000000000
+      internalID: 2044480081410934128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 117
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fa5b615e89881d0800000000000000
+      internalID: -3348258213254025455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 118
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff190a82c0e787430800000000000000
+      internalID: 3780910477863850495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 81
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cb691a29ccd5e30800000000000000
+      internalID: 4493972933333924956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers for tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 64
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1421341a7135a2d50800000000000000
+      internalID: 6713269555504026177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a80dd383b553c8b4fba5d09578e65754
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flowers for tilemap_0: 8301468112065211703
+      Flowers for tilemap_1: -8440986988359486862
+      Flowers for tilemap_10: -8952019617297965080
+      Flowers for tilemap_11: 2044480081410934128
+      Flowers for tilemap_12: -3348258213254025455
+      Flowers for tilemap_13: 3780910477863850495
+      Flowers for tilemap_14: 4493972933333924956
+      Flowers for tilemap_15: 6713269555504026177
+      Flowers for tilemap_2: 909414944119265495
+      Flowers for tilemap_3: -1847298618958991257
+      Flowers for tilemap_4: 1618122236252300522
+      Flowers for tilemap_5: 8872069554417895521
+      Flowers for tilemap_6: 9162445076378575696
+      Flowers for tilemap_7: -6494639518172813747
+      Flowers for tilemap_8: -2485027267049045428
+      Flowers for tilemap_9: 6759324647232594478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f1867e102131a94b8e55256990df62e
+guid: 3cc3cd4c0ebc88548b73cb89ddec733a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8122817492127302832
-    second: background 2_0
+      213: -3319089220819414304
+    second: Axe 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background 2_0
+      name: Axe 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 576
-        height: 324
+        x: 159
+        y: 127
+        width: 274
+        height: 306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b4c399f87b0ab070800000000000000
-      internalID: 8122817492127302832
+      spriteID: 0e21b3f50f930f1d0800000000000000
+      internalID: -3319089220819414304
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      background 2_0: 8122817492127302832
+      Axe 1_0: -3319089220819414304
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -16,6 +16,7 @@ TagManager:
   - Ground
   - Player
   - Player2
+  - Plants
   - 
   - 
   - 
@@ -33,8 +34,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Leaves
   - 
   - 
   - 
@@ -43,11 +43,53 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Chop
+  - name: 
     uniqueID: 110371277
     locked: 0
-  - name: Croc
+  - name: 
     uniqueID: 467749455
+    locked: 0
+  - name: 
+    uniqueID: 1885190519
+    locked: 0
+  - name: 1 colour
+    uniqueID: 2750827901
+    locked: 0
+  - name: 2 bg trees
+    uniqueID: 1426293767
+    locked: 0
+  - name: 3 almost bg trees
+    uniqueID: 1527239865
+    locked: 0
+  - name: 4 closer trees
+    uniqueID: 3405695257
+    locked: 0
+  - name: 5 front trees
+    uniqueID: 2135367675
+    locked: 0
+  - name: New Layer 9
+    uniqueID: 1229185977
+    locked: 0
+  - name: New Layer 10
+    uniqueID: 1635638285
+    locked: 0
+  - name: Plants
+    uniqueID: 450515805
+    locked: 0
+  - name: Chop
+    uniqueID: 1078047473
+    locked: 0
+  - name: Croc
+    uniqueID: 218357757
+    locked: 0
+  - name: New Layer 14
+    uniqueID: 3971710891
+    locked: 0
+  - name: Tilemap
+    uniqueID: 2417146295
+    locked: 0
+  - name: Leaves
+    uniqueID: 3448681471
     locked: 0
   m_RenderingLayers:
   - Default

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2761902478783992668
+--- !u!1 &1104645521956414027
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6583305758648343554}
-  - component: {fileID: 3434654210000341844}
-  - component: {fileID: 5688158459189003435}
+  - component: {fileID: 7968860461157448916}
+  - component: {fileID: 8638131755412441565}
+  - component: {fileID: 4756516898760415523}
   m_Layer: 0
-  m_Name: Bush 2_0 1
+  m_Name: Bush 2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6583305758648343554
+--- !u!4 &7968860461157448916
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2761902478783992668}
+  m_GameObject: {fileID: 1104645521956414027}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.583, y: -0.658, z: 0}
-  m_LocalScale: {x: 2.4163, y: 2.4707, z: 1}
+  m_LocalPosition: {x: -5.9409704, y: -0.2545259, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3434654210000341844
+--- !u!212 &8638131755412441565
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2761902478783992668}
+  m_GameObject: {fileID: 1104645521956414027}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -82,23 +82,23 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.45, y: 0.4}
+  m_Size: {x: 2.8125, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5688158459189003435
+--- !u!95 &4756516898760415523
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2761902478783992668}
+  m_GameObject: {fileID: 1104645521956414027}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 565f0b7b8e72eef4f992d7ca0d4bcf5e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1562828dc1ce9c048a601a6ee13d247e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
