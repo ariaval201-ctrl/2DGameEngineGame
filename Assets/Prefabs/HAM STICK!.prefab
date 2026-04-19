@@ -102,8 +102,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
-  pickupSound: {fileID: 0}
-  pickupParticles: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 93d11d0ac7e69b44cba1945d11c20e85, type: 3}
+  pickupParticles: {fileID: 1471447966531523107, guid: 96b7dc25b4480b4478145ac278517c7a, type: 3}
+  floatAmplitude: 0.25
+  floatSpeed: 2
 --- !u!61 &-2117811200598130168
 BoxCollider2D:
   m_ObjectHideFlags: 0
