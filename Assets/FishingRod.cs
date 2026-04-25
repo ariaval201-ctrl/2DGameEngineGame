@@ -57,19 +57,23 @@ public class FishingRod : MonoBehaviour
         Vector3 offset = new Vector3(spawnOffset.x * direction, spawnOffset.y, 0f);
         Vector3 spawnPos = hookSpawnPoint.position + hookSpawnPoint.TransformDirection(offset);
 
+        
         currentHook = Instantiate(hookPrefab, spawnPos, Quaternion.identity);
 
         HookController hookController = currentHook.GetComponent<HookController>();
 
+        
         hookController.Initialize(hookSpeed);
 
-        // 🎥 camera setup
+        
         hookCamera.Follow = currentHook.transform;
         hookCamera.LookAt = currentHook.transform;
 
+        
         hookController.cameraManager = cameraManager;
         hookController.returnCamera = cameraManager.chopCamera;
 
+       
         cameraManager.SwitchCamera(hookCamera);
 
         isCasting = false;

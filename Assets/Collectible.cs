@@ -33,7 +33,7 @@ public class CollectibleSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player2"))
         {
             CollectibleUI.instance.AddCollectible(value);
 
