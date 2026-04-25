@@ -7,6 +7,7 @@ public class MenuManager : MonoBehaviour
 [SerializeField] private GameObject SettingsPageUI;
 [SerializeField] private GameObject ControlsPageUI;
 [SerializeField] private GameObject SpecialPageUI;
+public RespawnManager respawnManager;
 private bool isPaused = false;
 
 void Update()
@@ -78,5 +79,11 @@ void Update()
         {
             Resume();
         }
+    }
+
+    public void ResetButton()
+    {
+        Resume();
+       respawnManager.Die();
     }
 }

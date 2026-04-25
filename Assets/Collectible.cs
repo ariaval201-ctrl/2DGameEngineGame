@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class CollectibleSystem : MonoBehaviour
+public class Collectible : MonoBehaviour
 {
     [Header("Collectible Settings")]
     public int value = 1;
@@ -32,18 +32,20 @@ public class CollectibleSystem : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("Player2"))
     {
-        if (other.CompareTag("Player2"))
-        {
-            CollectibleUI.instance.AddCollectible(value);
+        CollectibleCount.instance.AddCollectible(value);
 
-            if (pickupSound != null)
-                AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+        CollectibleUI.instance.AddCollectible(value);
 
-            if (pickupParticles != null)
-                Instantiate(pickupParticles, transform.position, Quaternion.identity);
+        if (pickupSound != null)
+            AudioSource.PlayClipAtPoint(pickupSound, transform.position);
 
-            Destroy(gameObject);
-        }
+        if (pickupParticles != null)
+            Instantiate(pickupParticles, transform.position, Quaternion.identity);
+
+        Destroy(gameObject);
     }
+}
 }

@@ -36,13 +36,9 @@ public class WinPlatform : MonoBehaviour
 
     void CheckWin()
     {
-        if(player1On && player2On)
+        if (player1On && player2On && CollectibleCount.instance.totalCollected >= 14)
         {
-            
-    
-        SceneManager.LoadScene("WinScreen");
-    
-            
+            SceneManager.LoadScene("WinScreen");
         }
     }
 }

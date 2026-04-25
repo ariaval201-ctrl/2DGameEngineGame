@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraHoldLook : MonoBehaviour
+public class CameraLookDown : MonoBehaviour
 {
     [Header("Vertical Look Settings")]
     public float verticalOffset = 0.75f;
