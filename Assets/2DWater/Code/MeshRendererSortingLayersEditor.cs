@@ -1,41 +1,36 @@
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
-using System.Collections;
 
 [CustomEditor(typeof(MeshRenderer))]
-
 public class MeshRendererSortingLayersEditor : Editor
 {
-	public override void OnInspectorGUI()
-	{
-		base.OnInspectorGUI();
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
 
-		MeshRenderer renderer = target as MeshRenderer;
+        Renderer renderer = (Renderer)target;
 
-		EditorGUILayout.BeginHorizontal();
+        if (renderer == null)
+            return;
 
-		EditorGUI.BeginChangeCheck();
+        EditorGUILayout.Space();
+        EditorGUILayout.LabelField("Sorting Settings", EditorStyles.boldLabel);
 
-		string name = EditorGUILayout.TextField("Sorting Layer Name", renderer.sortingLayerName);
+        EditorGUI.BeginChangeCheck();
 
-		if (EditorGUI.EndChangeCheck())
-		{
-			renderer.sortingLayerName = name;
-		}
+        string sortingLayer = EditorGUILayout.TextField("Sorting Layer", renderer.sortingLayerName);
+        int sortingOrder = EditorGUILayout.IntField("Sorting Order", renderer.sortingOrder);
 
-		EditorGUILayout.EndHorizontal();
+        if (EditorGUI.EndChangeCheck())
+        {
+            Undo.RecordObject(renderer, "Change Sorting Settings");
 
-		EditorGUILayout.BeginHorizontal();
+            renderer.sortingLayerName = sortingLayer;
+            renderer.sortingOrder = sortingOrder;
 
-		EditorGUI.BeginChangeCheck();
-
-		int order = EditorGUILayout.IntField("Sorting Order", renderer.sortingOrder);
-
-		if (EditorGUI.EndChangeCheck())
-		{
-			renderer.sortingOrder = order;
-		}
-
-		EditorGUILayout.EndHorizontal();
-	}
+            EditorUtility.SetDirty(renderer);
+        }
+    }
 }
+#endif
