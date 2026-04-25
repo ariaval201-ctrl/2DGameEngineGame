@@ -28,6 +28,7 @@ public class CharacterMovement : MonoBehaviour
     private Animator animator;
     public bool canFlip = true;
     public float HorizontalInput => horizInput;
+    
 
     void Start()
     {

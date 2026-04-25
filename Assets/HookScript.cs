@@ -1,73 +1,80 @@
 using UnityEngine;
+using Unity.Cinemachine;
 
 public class HookController : MonoBehaviour
 {
-    private Transform player1;
+    private Vector3 startPos;
+    private Vector3 returnPos;
     private float speed;
+
     private bool goingDown = true;
     private Transform caughtPlayer;
 
     public float maxDistance = 5f;
-    private Vector3 startPos;
     public PlatformToggle platformToggle;
 
+    // 🎥 camera control
+    public CameraManager cameraManager;
+    public CinemachineCamera returnCamera;
+
     void Start()
-{
-    platformToggle = FindObjectOfType<PlatformToggle>();
-}
-    public void Initialize(Transform p1, float hookSpeed)
     {
-        player1 = p1;
-        speed = hookSpeed;
+        platformToggle = FindObjectOfType<PlatformToggle>();
+    }
+
+    public void Initialize(float hookSpeed)
+    {
         startPos = transform.position;
+        returnPos = transform.position;
+        speed = hookSpeed;
     }
 
     void Update()
     {
         if (goingDown)
         {
-            transform.Translate(Vector2.down * speed * Time.deltaTime);
+            // ✅ world-space movement (stable)
+            transform.position += Vector3.down * speed * Time.deltaTime;
 
-            if (Vector2.Distance(startPos, transform.position) >= maxDistance)
-            {
+            if (Vector3.Distance(startPos, transform.position) >= maxDistance)
                 goingDown = false;
-            }
         }
         else
         {
-            transform.position = Vector2.MoveTowards(
+            transform.position = Vector3.MoveTowards(
                 transform.position,
-                player1.position,
+                returnPos,
                 speed * Time.deltaTime
             );
 
             if (caughtPlayer != null)
-            {
                 caughtPlayer.position = transform.position;
-            }
 
-            if (Vector2.Distance(transform.position, player1.position) < 0.1f)
+            if (Vector3.Distance(transform.position, returnPos) < 0.1f)
             {
-            if (caughtPlayer != null)
-            {
-            caughtPlayer.SetParent(null);
-            }
+                if (caughtPlayer != null)
+                    caughtPlayer.SetParent(null);
 
-            FindObjectOfType<CameraManager>()
-            .SwitchCamera(FindObjectOfType<CameraManager>().startCamera);
+                // 🎥 return camera BEFORE destroy
+                if (cameraManager != null && returnCamera != null)
+                {
+                    cameraManager.SwitchCamera(returnCamera);
+                }
 
-            Destroy(gameObject);
+                Destroy(gameObject);
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-        {   
-        if (collision.CompareTag("Player2") && !platformToggle.PlatformActive)
-     {
-        goingDown = false;
-        caughtPlayer = collision.transform;
-        caughtPlayer.SetParent(transform);
-     }
-         }
+    {
+        if (collision.CompareTag("Player2") &&
+            platformToggle != null &&
+            !platformToggle.PlatformActive)
+        {
+            goingDown = false;
+            caughtPlayer = collision.transform;
+            caughtPlayer.SetParent(transform);
+        }
+    }
 }

@@ -3,7 +3,6 @@ using Unity.Cinemachine;
 
 public class CameraManager : MonoBehaviour
 {
-    
     public CinemachineCamera[] cameras;
 
     public CinemachineCamera chopCamera;
@@ -13,42 +12,32 @@ public class CameraManager : MonoBehaviour
     public CinemachineCamera currentCam;
     public CinemachineCamera hookCamera;
 
-    private void Start()
-{
-    if (startCamera == null)
+    void Start()
     {
-        Debug.LogError("Start camera not assigned!");
-        return;
+        if (startCamera == null)
+            return;
+
+        currentCam = startCamera;
+        UpdatePriorities();
     }
 
-    currentCam = startCamera;
-
-    for (int i = 0; i < cameras.Length; i++)
+    public void SwitchCamera(CinemachineCamera newCam)
     {
-        if (cameras[i] == null)
+        if (newCam == null)
+            return;
+
+        currentCam = newCam;
+        UpdatePriorities();
+    }
+
+    private void UpdatePriorities()
+    {
+        for (int i = 0; i < cameras.Length; i++)
         {
-            Debug.LogWarning($"Camera at index {i} is null!");
-            continue;
-        }
+            if (cameras[i] == null)
+                continue;
 
-        cameras[i].Priority = (cameras[i] == currentCam) ? 20 : 10;
-    }
-}
-  
-   public void SwitchCamera(CinemachineCamera newCam)
-{
-    if (newCam == null)
-    {
-        Debug.LogError("Trying to switch to a null camera!");
-        return;
-    }
-
-    currentCam = newCam;
-
-    for (int i = 0; i < cameras.Length; i++)
-    {
-        if (cameras[i] != null)
             cameras[i].Priority = (cameras[i] == currentCam) ? 20 : 10;
+        }
     }
-}
 }
