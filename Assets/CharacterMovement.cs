@@ -74,16 +74,15 @@ if (animator != null)
 }
     }
 
-   void FixedUpdate()
+  void FixedUpdate()
 {
     if (!canMove)
     {
-        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        rb.linearVelocity = Vector2.zero;
         return;
     }
 
     rb.linearVelocity = new Vector2(horizInput * speed, rb.linearVelocity.y);
-    
 }
 
     public bool IsGrounded()

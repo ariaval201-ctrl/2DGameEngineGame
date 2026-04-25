@@ -11,6 +11,7 @@ public class CameraManager : MonoBehaviour
 
     public CinemachineCamera startCamera;
     public CinemachineCamera currentCam;
+    public CinemachineCamera hookCamera;
 
     private void Start()
 {

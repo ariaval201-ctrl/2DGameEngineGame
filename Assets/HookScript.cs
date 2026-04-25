@@ -48,12 +48,15 @@ public class HookController : MonoBehaviour
 
             if (Vector2.Distance(transform.position, player1.position) < 0.1f)
             {
-                if (caughtPlayer != null)
-                {
-                    caughtPlayer.SetParent(null);
-                }
+            if (caughtPlayer != null)
+            {
+            caughtPlayer.SetParent(null);
+            }
 
-                Destroy(gameObject);
+            FindObjectOfType<CameraManager>()
+            .SwitchCamera(FindObjectOfType<CameraManager>().startCamera);
+
+            Destroy(gameObject);
             }
         }
     }
