@@ -26,7 +26,7 @@ public class Collectible : MonoBehaviour
 
     private void Update()
     {
-        // Bob up and down using sine wave
+        
         float newY = startPos.y + Mathf.Sin(Time.time * floatSpeed) * floatAmplitude;
         transform.position = new Vector3(startPos.x, newY, startPos.z);
     }

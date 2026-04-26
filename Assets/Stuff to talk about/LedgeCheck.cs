@@ -47,6 +47,7 @@ public class LedgeClimb2D : MonoBehaviour
 
     void CheckSurroundings()
     {
+        // code for gizmo to check if there are walls 
         Vector2 wallDir = Vector2.right * facingDirection;
 
         isTouchingWall = Physics2D.Raycast(
@@ -55,7 +56,7 @@ public class LedgeClimb2D : MonoBehaviour
             wallCheckDistance,
             groundLayer
         );
-
+            //to check if there is a wall above the wall so you can jump up
         bool isBlockedAbove = Physics2D.Raycast(
             ledgeCheck.position,
             wallDir,
@@ -73,6 +74,7 @@ public class LedgeClimb2D : MonoBehaviour
 
     IEnumerator SmoothClimb()
     {
+        //code to move slowly instead of straight teleport
         isClimbing = true;
 
         rb.linearVelocity = Vector2.zero;
@@ -105,6 +107,8 @@ public class LedgeClimb2D : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+
+        //drawing the gizmos in unity
         if (wallCheck != null)
         {
             Gizmos.color = Color.red;

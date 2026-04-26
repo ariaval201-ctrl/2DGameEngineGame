@@ -9,7 +9,7 @@ public class CollectibleCount : MonoBehaviour
 
     private void Awake()
     {
-        // Simple singleton setup
+        
         if (instance == null)
         {
             instance = this;

@@ -34,6 +34,7 @@ public class HookController : MonoBehaviour
     {
         if (goingDown)
         {
+            //math to make it go down
             transform.position += Vector3.down * speed * Time.deltaTime;
 
             if (Vector3.Distance(startPos, transform.position) >= maxDistance)
@@ -44,6 +45,7 @@ public class HookController : MonoBehaviour
 
         MoveBack();
 
+            //
         if (Vector3.Distance(transform.position, returnPos) <= 0.1f)
         {
             FinishHook();
@@ -71,24 +73,26 @@ public class HookController : MonoBehaviour
     {
         if (HookedCroc != null)
         {
+            //code to make sure if it hits player 2 it sets the hook as parent and croc follows the hook
             HookedCroc.SetParent(null);
         }
 
-        // 🎬 reset animation
+        // code to stop animationn
         if (HookedCrocAnimator != null)
             HookedCrocAnimator.SetBool("IsCaught", false);
 
-        // 🎥 return camera
+        // code to bring camera back to chop
         if (cameraManager != null && returnCamera != null)
         {
             cameraManager.SwitchCamera(returnCamera);
         }
-
+        //gets rid of the hook
         Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // code for error noise
         if (!collision.CompareTag("Player2"))
             return;
 

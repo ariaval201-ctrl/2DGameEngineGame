@@ -52,30 +52,34 @@ public class FishingRod : MonoBehaviour
     {
         isCasting = true;
 
+        //makes sure it is flipped when sprite is flipoped
         float direction = spriteRenderer.flipX ? -1f : 1f;
 
+        //spawn offset
         Vector3 offset = new Vector3(spawnOffset.x * direction, spawnOffset.y, 0f);
         Vector3 spawnPos = hookSpawnPoint.position + hookSpawnPoint.TransformDirection(offset);
 
-        
+        //makes prefab
         currentHook = Instantiate(hookPrefab, spawnPos, Quaternion.identity);
 
+        //makes sure it has hookcontroller script
         HookController hookController = currentHook.GetComponent<HookController>();
 
-        
+        //gives it a speed to move down
         hookController.Initialize(hookSpeed);
 
-        
+        //makes sure the camera swaps to hook
         hookCamera.Follow = currentHook.transform;
         hookCamera.LookAt = currentHook.transform;
 
-        
+        // gives it info when it spawns about camera manager
         hookController.cameraManager = cameraManager;
         hookController.returnCamera = cameraManager.chopCamera;
 
-       
+       // swaps the camera to hook camera
         cameraManager.SwitchCamera(hookCamera);
 
+        
         isCasting = false;
     }
 

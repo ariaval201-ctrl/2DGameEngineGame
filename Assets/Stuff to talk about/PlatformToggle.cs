@@ -27,11 +27,12 @@ public class PlatformToggle : MonoBehaviour
 
     void Update()
     {
+        //makes sure your on croc
         if (cameraManager.currentCam == myCamera && Input.GetKeyDown(KeyCode.E))
         {
             if (currentPlatform == null)
             {
-                // Start coroutine to play animation first, then spawn
+                // starts animation THEN spawns platform
                 StartCoroutine(SpawnPlatformAnimation());
             }
             else
@@ -43,14 +44,14 @@ public class PlatformToggle : MonoBehaviour
 
     private IEnumerator SpawnPlatformAnimation()
     {
-        // Play spawn animation
+        
         if (spawnAnimator != null)
             spawnAnimator.SetTrigger(spawnTrigger);
 
-        // Wait for the animation to finish
+        
         yield return new WaitForSeconds(spawnAnimDuration);
 
-        // Then spawn the platform
+        // spawns the platform
         float direction = characterMovement.FacingRight ? 1f : -1f;
         Vector3 spawnPosition = transform.position + new Vector3(direction * spawnDistance, spawnHeight, 0f);
         currentPlatform = Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
@@ -71,7 +72,7 @@ public class PlatformToggle : MonoBehaviour
     if (despawnAnimator != null)
         despawnAnimator.SetTrigger(despawnTrigger);
 
-    // Wait for the despawn animation to finish
+    
     yield return new WaitForSeconds(despawnAnimDuration);
 }
 

@@ -5256,7 +5256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &481327741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18621,10 +18621,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 640, y: 320}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -20072,11 +20072,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1728499304173496499, guid: b9f35fbfc14fedb4f88cc75330017955, type: 3}
       propertyPath: m_SortingLayer
-      value: 6
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1728499304173496499, guid: b9f35fbfc14fedb4f88cc75330017955, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1527239865
+      value: -553968491
       objectReference: {fileID: 0}
     - target: {fileID: 6370903570580788026, guid: b9f35fbfc14fedb4f88cc75330017955, type: 3}
       propertyPath: m_Name
@@ -33979,7 +33979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 11.894}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 286.1, y: 121.8}
+  m_AnchoredPosition: {x: 302.9, y: 141.1}
   m_SizeDelta: {x: 100.7827, y: 54.9359}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068273322
@@ -34002,7 +34002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ESC
+  m_text: P
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ccc998443420bbf48b6ba6f88cd492eb, type: 2}
   m_sharedMaterial: {fileID: 6667226461368774615, guid: ccc998443420bbf48b6ba6f88cd492eb, type: 2}
@@ -34029,13 +34029,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 3
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
